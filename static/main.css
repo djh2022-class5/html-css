@@ -1,9 +1,16 @@
 @font-face {
-  font-family: 'SongMyung.ttf';
-  src: url('SongMyung.ttf');
+  font-family: 'Woojin';
+  src: url('Woojin.ttf');
 }
+@font-face{
+  font-family:'Song';
+  src :url('SongMyung.ttf');
+}
+
 .background{
   background-color: rgb(188, 186, 232);
+  font-family: SongMyung;
+  font
 }
 
 .main_name1{
@@ -18,6 +25,8 @@
   background-image: url("clouds.jpg");
   background-position: -100px 500px;
   transition-property: all;
+  font-family:Woojin;
+  font-size: x-large;
 }
 
 .menu1{
@@ -31,6 +40,7 @@
   font-size: x-large;
   line-height: 45px;
   text-align: center;
+  font-family:Song;
   
 }
 
@@ -42,6 +52,7 @@
   margin-left: 10px;
   border: 3px solid black;
   margin-bottom: 10px;
+  
 }
 
 .o-w1{
@@ -51,7 +62,7 @@
   background-color: rgb(255, 255, 255);
   float: left;
   margin-left: 10px;
-
+  
 }
 
 .djhs-hp{
@@ -63,7 +74,7 @@
   margin-left: 30px;
   margin-top: 10px;
   text-align: center;
-}
+  }
 
 .under{
   background-color: rgb(255, 255, 255);
@@ -74,18 +85,23 @@
   margin-bottom: 10px;
   margin-top: 30px;
   margin-left: 30px;
+  font-family:Song;
+
 }
 
 a:link{
   color: black;
   text-decoration-line: none;
+
 }
 a:visited{
   color: black;
+
 }
 a:hover{
-  color: red;
+  color: #3238ec;
 }
 a{
   text-decoration-style:none;
+
 }
